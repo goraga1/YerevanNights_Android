@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupRight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arrow_back" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/buttonDedicate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_dedicate" />
+
+        <ImageButton
+            android:id="@+id/buttonPlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_playlist" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_back" />
+
+</RelativeLayout>

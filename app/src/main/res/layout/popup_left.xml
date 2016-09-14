@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arrow_back" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/channels"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/buttonArmenian"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_armenian" />
+
+        <ImageButton
+            android:id="@+id/buttonRussian"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_russian" />
+
+        <ImageButton
+            android:id="@+id/buttonEuropean"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_european" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_back" />
+
+</RelativeLayout>
